@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" 
+      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+      
+    <link rel="stylesheet" href="main.css">
+    <script defer src="http://use.fontawesome.com/releases.v5.0.9/js/all.js"
+      integrity="sha384-BiPTk2s/jMVj81dnzb/iF2sdA7u86vHJyyLlAd4snFpCl/SnyUjRrdbJsw1pGI1"
+      crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/a73aa1d1f9.js" crossorigin="anonymous"></script>
+      <!--Import Google Icon Font-->
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <!--Import materialize.css-->
+    <link rel="stylesheet" href="materialize/css/materialize.css">
+    <link rel="icon" type="image/x-icon" href="img/favicon.ico">
+    <title>RaZor Travel</title>
+</head>
+<body>
+    <!--Navbar start-->
+    <div class="navh">
+      <input type="checkbox" id="check">
+      <label for="check" class="checkbtn">
+        <i class="fas fa-bars"></i>
+      </label>
+      <label class="logo">RaZor Travel</label>
+      <ul>
+        <li><a href="#homr">Home</a></li>
+        <li><a href="#search">Search</a></li>
+        <li><a href="#popular">Popular Places</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+    <!--Navbar end-->
+
+  <!--carousel start-->
+  <section class="slider">
+    <ul class="slides">
+      <li>
+        <img src="img/resort1.jpg"> <!-- random image -->
+        <div class="caption center-align">
+          <h2>Take Your Dream Vacation</h2>
+          <h5 class="light grey-text text-lighten-3
+          hide-on-small-only">You deserve to travel, take a break from the daily grind, and just relax.
+          RaZor Travel is here to help you make that dream vacation come true.</h5>
+      </li>
+      <li>
+        <img src="img/resort2.jpg"> <!-- random image -->
+        <div class="caption left-align">
+          <h2>We Work With All Budgets</h2>
+          <h5 class="light grey-text text-lighten-3
+          hide-on-small-only">We’re committed to making your vacation experience affordable, comfortable 
+          and relaxing. We work with all budgets and travel preferences to ensure that we have a plan that fits the needs of the traveler.</h5>
+        </div>
+      </li>
+      <li>
+        <img src="img/resort3.jpg"> <!-- random image -->
+        <div class="caption right-align">
+          <h2>Group & Individual Getaways</h2>
+          <h5 class="light grey-text text-lighten-3
+          hide-on-small-only">Whether you're looking for a romantic getaway with your friends, a quick escape from the stresses of everyday 
+          life, or a weekend all-inclusive trip to a tropical island, we've got you covered.</h5>
+        </div>
+    </ul>
+  </section>
+  <!--carousel end-->
+
+  <!--Search start-->
+  <section id="search" class="section section-dash blue 
+  darken-1 white-text center scrollspy">
+  <div class="container">
+    <div class="row">
+      <div class="col s12"></div>
+      <h3>Search Destination</h3>
+      <div class="input-field">
+        <input type="text" class="white grey-text 
+        autocomplete" id="autocomplete-input"
+        placeholder="Ibiza, Bora Bora, etc...">
+      </div>
+    </div>
+  </div>
+  </section>
+  <!--Search end-->
+
+
+  <!--Popular Places start-->
+  <section id="popular" class="section section-popular scrollspy">
+    <div class="container">
+      <div class="row">
+        <h4 class="center"><span 
+          class="blue-text">Popular</span> Places</h4>
+        <div class="col s12 m4">
+          <div class="card">
+            <div class="card-image">
+              <img src="img/resort1.jpg" alt="">
+              <span class="card-title">Cancun,
+                Mexico</span>
+            </div>
+            <div class="card-contenet">
+              Cancun is a great travel destination. The beaches are lovely and the hotel rooms are affordable. The water is crystal clear and there are tons of activities for you to do. 
+            </div>
+          </div>
+        </div>
+        <div class="col s12 m4">
+          <div class="card">
+            <div class="card-image">
+              <img src="img/resort2.jpg" alt="">
+              <span class="card-title">The Bahamas</span>
+            </div>
+            <div class="card-contenet">
+              The Bahamas are a great travel destination for beach-lovers! The islands are home to 
+              some of the best beaches in the world, and they're also known for their laid-back vibe.
+            </div>
+          </div>
+        </div>
+        <div class="col s12 m4">
+          <div class="card">
+            <div class="card-image">
+              <img src="img/resort3.jpg" alt="">
+              <span class="card-title">Ibiza</span>
+            </div>
+            <div class="card-contenet">
+              Ibiza is great for a vacation. It's a beautiful island with a lot of things to do, 
+              and it's one of the best places in Europe to experience spring.
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--Popular Places end-->
+
+  
+
+
+  <!--Footer start-->
+  <footer class="page-footer blue">
+    <div class="container">
+      <div class="row">
+        <div class="col l6 s12">
+          <h5 class="white-text">RaZor Travel</h5>
+          <p class="grey-text text-lighten-4">You can use rows and columns here to organize your footer content.</p>
+        </div>
+        <div class="col l4 offset-l2 s12">
+          <h5 class="white-text">Quick Links</h5>
+          <ul>
+            <li><a class="grey-text text-lighten-3" href="#!">Link 1</a></li>
+            <li><a class="grey-text text-lighten-3" href="#!">Link 2</a></li>
+            <li><a class="grey-text text-lighten-3" href="#!">Link 3</a></li>
+            <li><a class="grey-text text-lighten-3" href="#!">Link 4</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="footer-copyright">
+      <div class="container">
+      © RaZor Travel 2022 Copyright
+      <a class="grey-text text-lighten-4 right" href="#!">More Links</a>
+      </div>
+    </div>
+  </footer>
+  <!--Footer end-->
+
+
+
+  <!--JavaScript Start-->
+  <script src="materialize/js/materialize.js"></script>
+  <script src="materialize/js/materialize.min.js"></script>
+  <script src="app.js"></script>
+  <script>
+    
+    document.addEventListener('DOMContentLoaded', function() {
+      var elems = document.querySelectorAll('.sidenav');
+      var instances = M.Sidenav.init(elems, options);
+    });
+    // Sidenav
+    const sideNav = document.querySelector('.sidenav');
+    M.Sidenav.init(sideNav, {});
+
+    //Slider
+    const slider = document.querySelector('.slider');
+    M.Slider.init(slider,{
+      indicators: 500,
+      height: 500,
+      interval: 6000
+    });
+
+    // Autocomplete
+    const ac = document.querySelector('.autocomplete');
+    M.Autocomplete.init(ac, {
+      data: {
+        "Santorini" : null,
+        "Cancun" : null,
+        "The Bahamas" : null,
+        "Maldives" : null,
+        "Bora Bora" : null,
+        "Petre" : null,
+        "Ibiza" : null,
+        "Hawaii" : null,
+        "Rome" : null,
+        "Bali" : null,
+      }
+    });
+    // Material Boxed
+    const mb = document.querySelectorAll('.materialboxed')
+    M.Materializedbox.init(mb, {});
+
+  </script>
+  <!--Javascript end-->
+</body>
+</html>
